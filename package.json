@@ -87,5 +87,10 @@
     "rules",
     "test",
     "utilities"
-  ]
+  ],
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/aosyatnik/eslint-plugin-flux-standard-actions.git"
+  }
 }
