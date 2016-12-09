@@ -1,96 +1,24 @@
 {
-  "_args": [
-    [
-      "eslint-plugin-flux-standard-actions",
-      "/vagrant/www"
-    ]
-  ],
-  "_from": "eslint-plugin-flux-standard-actions@latest",
-  "_id": "eslint-plugin-flux-standard-actions@1.0.5",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/eslint-plugin-flux-standard-actions",
-  "_nodeVersion": "4.2.6",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/eslint-plugin-flux-standard-actions-1.0.5.tgz_1479808428917_0.3020458212122321"
-  },
-  "_npmUser": {
-    "email": "aosyatnik@amcbridge.biz",
-    "name": "aosyatnik"
-  },
-  "_npmVersion": "3.5.2",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "eslint-plugin-flux-standard-actions",
-    "raw": "eslint-plugin-flux-standard-actions",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/eslint-plugin-flux-standard-actions/-/eslint-plugin-flux-standard-actions-1.0.5.tgz",
-  "_shasum": "8b11c7fd1be6aa965ba9fb5d2c02c71246bfcfba",
-  "_shrinkwrap": null,
-  "_spec": "eslint-plugin-flux-standard-actions",
-  "_where": "/vagrant/www",
-  "author": {
-    "email": "aosyatnik@amcbridge.biz",
-    "name": "Anna Osyatnik"
-  },
-  "dependencies": {},
+  "name": "eslint-plugin-flux-standard-actions",
+  "version": "1.0.7",
   "description": "Flux standard action rules for ESLint",
+  "author": "Anna Osyatnik <aosyatnik@amcbridge.biz>",
+  "license": "ISC",
+  "keywords": [
+    "FSA",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "flux"
+  ],
   "devDependencies": {
     "mocha": "^3.1.2"
   },
-  "directories": {
-    "rules": "rules",
-    "test": "tests",
-    "util": "utilities"
-  },
-  "dist": {
-    "shasum": "8b11c7fd1be6aa965ba9fb5d2c02c71246bfcfba",
-    "tarball": "https://registry.npmjs.org/eslint-plugin-flux-standard-actions/-/eslint-plugin-flux-standard-actions-1.0.5.tgz"
-  },
-  "keywords": [
-    "FSA",
-    "action",
-    "eslint",
-    "eslintplugin",
-    "flux",
-    "flux",
-    "standard"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "aosyatnik",
-      "email": "aosyatnik@amcbridge.biz"
-    }
-  ],
-  "name": "eslint-plugin-flux-standard-actions",
-  "optionalDependencies": {},
   "peerDependencies": {
     "eslint": ">=2.0.0 <4.0.0"
   },
-  "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.0.7",
-  "files": [
-    "README.md",
-    "rules",
-    "test",
-    "utilities"
-  ],
-  "repository" :
-  { 
-    "type" : "git",
-    "url" : "https://github.com/aosyatnik/eslint-plugin-flux-standard-actions.git"
-  }
+  "repository": "https://github.com/aosyatnik/eslint-plugin-flux-standard-actions.git"
 }
