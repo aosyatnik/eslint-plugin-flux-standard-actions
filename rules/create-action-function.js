@@ -10,7 +10,8 @@ module.exports = function(context) {
                 return;
             }
                     
-            if(node.argument.type !== 'CallExpression' || node.argument.callee.callee.name !== 'createAction') {
+            if(node.argument.type !== 'CallExpression' ||
+               node.argument.callee && node.argument.callee.callee.name !== 'createAction') {
                 createActionError(node, context);
             }
         }
