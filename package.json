@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-flux-standard-actions",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Flux standard action rules for ESLint",
   "author": "Anna Osyatnik <aosyatnik@amcbridge.biz>",
   "license": "ISC",
